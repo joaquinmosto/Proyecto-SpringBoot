@@ -12,7 +12,7 @@ class OdontologoServiceTest {
     @Autowired
     private IOdontologoService iodontoloservice;
     @Test
-    void crearPacienteTest() {
+    void crearOdontoloTest() {
         OdontoloDTO odontoloDTO = new OdontoloDTO();
 
         odontoloDTO.setApellido("Najera");
@@ -20,14 +20,14 @@ class OdontologoServiceTest {
         odontoloDTO.setMatricula(1231321);
         odontoloDTO.setId(1L);
 
-        iodontoloservice.crearOdontolo(odontoloDTO);
+        iodontoloservice.crearOdontologo(odontoloDTO);
         Assert.assertNotNull(odontoloDTO);
     }
 
     @Test
     void eliminarOdontologoTest() {
         iodontoloservice.eliminarOdontologo(1L);
-        Assert.assertEquals(iodontoloservice.leerOdontologo(1L), null);
+        Assert.assertEquals(iodontoloservice.buscarOdontologo(1L), null);
     }
 
 }

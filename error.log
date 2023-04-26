@@ -117,3 +117,19 @@
 [2023-04-0720:17:41] [ INFO ] [PacienteService:80] Lista de pacientes creada.
 [2023-04-0720:17:43] [ INFO ] [OdontologoService:74] Creando lista de odontologos...
 [2023-04-0720:17:43] [ INFO ] [OdontologoService:80] Lista de odontologos creada.
+[2023-04-2522:21:40] [ INFO ] [OdontologoService:27] Creando odontologo: OdontoloDTO(id=0, nombre=Armando, apellido=Najera, matricula=1231321)
+[2023-04-2522:21:40] [ INFO ] [OdontologoService:30] Odontologo creado: Odontologo(id=2, nombre=Armando, apellido=Najera, matricula=1231321, turnos=null)
+[2023-04-2522:21:40] [ INFO ] [OdontologoService:62] Eliminando odontologo con ID: 1
+[2023-04-2522:21:40] [ INFO ] [OdontologoService:37] Buscando odontologo con ID: 1
+[2023-04-2522:21:40] [ INFO ] [OdontologoService:40] Odontologo con ID: 1 encontrado.
+[2023-04-2522:21:40] [ INFO ] [OdontologoService:65] Odontologo con ID: 1 eliminando.
+[2023-04-2522:21:40] [ INFO ] [OdontologoService:37] Buscando odontologo con ID: 1
+[2023-04-2522:21:40] [ INFO ] [OdontologoService:43] Odontologo con ID: 1 no encontrado.
+[2023-04-2522:33:10] [ INFO ] [PacienteService:27] Creando paciente: PacienteDTO(id=0, nombre=juan, apellido=perez, dni=34234, fecha_ingreso=null)
+[2023-04-2522:33:10] [ INFO ] [PacienteService:30] Paciente creado: com.Proyecto.Clinica.model.Paciente@2a9fd482
+[2023-04-2522:33:10] [ INFO ] [PacienteService:62] Eliminando paciente con ID: 1
+[2023-04-2522:33:10] [ INFO ] [PacienteService:37] Buscando paciente con ID: 1
+[2023-04-2522:33:10] [ INFO ] [PacienteService:40] Paciente con ID: 1 encontrado.
+[2023-04-2522:33:10] [ INFO ] [PacienteService:65] Paciente con ID: 1 eliminando.
+[2023-04-2522:33:10] [ INFO ] [PacienteService:37] Buscando paciente con ID: 1
+[2023-04-2522:33:10] [ INFO ] [PacienteService:43] Paciente con ID: 1 no encontrado.
